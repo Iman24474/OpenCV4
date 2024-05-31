@@ -1,0 +1,1418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Loading&amp;SavingImages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\baboon01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\baboon02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\beach.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bear.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bench1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bench2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bike55.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bike65.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\binary.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\binaryGroup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\boldt.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\book.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\brebeuf1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\brebeuf2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\building.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chariot.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\church01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\church02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\church03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cookbook1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\dog.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\face0_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\face0_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\face1_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\face1_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\fundy.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\girl.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\group.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\lake.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\marais.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\moose.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mser.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\objects.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\parliament1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\parliament2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\parliament3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\person.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\polar.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\puppy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rain.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\salted.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\smalllogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\soup1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\soup2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\square.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tower.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\waves.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose000.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose007.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose008.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose009.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose010.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose011.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose013.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose014.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose015.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose016.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose017.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose018.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose019.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose020.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose021.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose022.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose023.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose024.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose025.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose026.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose027.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose028.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose029.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose030.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose031.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose032.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose033.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose034.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose035.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose036.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose037.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose038.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose039.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose040.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose041.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose042.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose043.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose044.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose045.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose046.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose047.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose048.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose049.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose050.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose051.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose052.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose053.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose054.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose055.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose056.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose057.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose058.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose059.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose060.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose061.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose062.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose063.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose064.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose065.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose066.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose067.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose068.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose069.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose070.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose071.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose072.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose073.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose074.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose075.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose076.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose077.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose078.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose079.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose080.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose081.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose082.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose083.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose084.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose085.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose086.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose087.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose088.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose089.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose090.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose091.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose092.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose093.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose094.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose095.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose096.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose097.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose098.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose099.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose100.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose101.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose102.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose103.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose104.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose105.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose106.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose107.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose108.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose109.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose110.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose111.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose112.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose113.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose114.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose115.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose116.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose117.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose118.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose119.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose120.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose121.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose122.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose123.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose124.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose125.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose126.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose127.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose128.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose129.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose130.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose131.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose132.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose133.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose134.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose135.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose136.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose137.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose138.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose139.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose140.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose141.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose142.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose143.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose144.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose145.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose146.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose147.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose148.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose149.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose150.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose151.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose152.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose153.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose154.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose155.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose156.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose157.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose158.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose159.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose160.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose161.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose162.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose163.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose164.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose165.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose166.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose167.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose168.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose169.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose170.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose171.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose172.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose173.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose174.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose175.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose176.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose177.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose178.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose179.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose180.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose181.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose182.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose183.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose184.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose185.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose186.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose187.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose188.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose189.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose190.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose191.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose192.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose193.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose194.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose195.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose196.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose197.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose198.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose199.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose200.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose201.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose202.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose203.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose204.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose205.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose206.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose207.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose208.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose209.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose210.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose211.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose212.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose213.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose214.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose215.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose216.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose217.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose218.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose219.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose220.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose221.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose222.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose223.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose224.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose225.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose226.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose227.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose228.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose229.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose230.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose231.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose232.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose233.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose234.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose235.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose236.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose237.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose238.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose239.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose240.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose241.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose242.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose243.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose244.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose245.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose246.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose247.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose248.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose249.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose250.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose251.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose252.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose253.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose254.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose255.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose257.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose258.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose259.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose260.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose261.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose262.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose263.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose264.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose265.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose266.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose267.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose268.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose269.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose270.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose271.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose272.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose273.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose274.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose275.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose276.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose277.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose278.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose279.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose280.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose281.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose282.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose283.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose284.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose285.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose286.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose287.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose288.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose289.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose290.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose291.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose292.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose293.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose294.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose295.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose296.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose297.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose298.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose299.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose300.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose301.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose302.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose303.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose304.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose305.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose306.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose307.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose308.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose309.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose310.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose311.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose312.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose313.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose314.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose315.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose316.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\goose\goose317.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard04.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard05.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard06.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard07.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard08.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard09.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard10.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard11.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard12.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard13.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard14.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard15.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard16.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard17.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard18.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard19.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard20.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard21.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard22.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard23.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard24.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard25.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard26.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\chessboards\chessboard27.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg04.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg05.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg06.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg07.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg08.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\bg09.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n8.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\n9.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg00.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\neg09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\objects.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\soup1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop00.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop0.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop8.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\stop9.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street00.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street04.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street05.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street06.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street07.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street08.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\street09.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stopSamples\tower.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\dog.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\puppy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Lonely Tree.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bike.avi" />
+    <None Include="images\stopSamples\trainStop.bat">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="images\stopSamples\neg.txt" />
+    <Text Include="images\stopSamples\stop.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="images\stopSamples\classifier\cascade.xml" />
+    <Xml Include="images\stopSamples\classifier\params.xml" />
+    <Xml Include="images\stopSamples\classifier\stage0.xml" />
+    <Xml Include="images\stopSamples\classifier\stage1.xml" />
+    <Xml Include="images\stopSamples\classifier\stage2.xml" />
+    <Xml Include="images\stopSamples\classifier\stage3.xml" />
+    <Xml Include="images\stopSamples\classifier\stage4.xml" />
+    <Xml Include="images\stopSamples\classifier\stage5.xml" />
+    <Xml Include="images\stopSamples\classifier\stage6.xml" />
+    <Xml Include="images\stopSamples\classifier\stage7.xml" />
+    <Xml Include="images\stopSamples\classifier\stage8.xml" />
+  </ItemGroup>
+</Project>

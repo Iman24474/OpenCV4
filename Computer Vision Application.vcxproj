@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c5c9dc4c-6fc2-4fd4-bb1a-ea54d1f8661a}</ProjectGuid>
+    <RootNamespace>ComputerVisionApplication</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Tools\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Tools\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_world480d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Loading&amp;SavingImages.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\baboon01.jpg" />
+    <Image Include="images\baboon02.jpg" />
+    <Image Include="images\beach.jpg" />
+    <Image Include="images\bear.jpg" />
+    <Image Include="images\bench1.jpg" />
+    <Image Include="images\bench2.jpg" />
+    <Image Include="images\bike55.bmp" />
+    <Image Include="images\bike65.bmp" />
+    <Image Include="images\binary.bmp" />
+    <Image Include="images\binaryGroup.bmp" />
+    <Image Include="images\boldt.jpg" />
+    <Image Include="images\book.jpg" />
+    <Image Include="images\brebeuf1.jpg" />
+    <Image Include="images\brebeuf2.jpg" />
+    <Image Include="images\building.jpg" />
+    <Image Include="images\chariot.jpg" />
+    <Image Include="images\chessboards\chessboard01.jpg" />
+    <Image Include="images\chessboards\chessboard02.jpg" />
+    <Image Include="images\chessboards\chessboard03.jpg" />
+    <Image Include="images\chessboards\chessboard04.jpg" />
+    <Image Include="images\chessboards\chessboard05.jpg" />
+    <Image Include="images\chessboards\chessboard06.jpg" />
+    <Image Include="images\chessboards\chessboard07.jpg" />
+    <Image Include="images\chessboards\chessboard08.jpg" />
+    <Image Include="images\chessboards\chessboard09.jpg" />
+    <Image Include="images\chessboards\chessboard10.jpg" />
+    <Image Include="images\chessboards\chessboard11.jpg" />
+    <Image Include="images\chessboards\chessboard12.jpg" />
+    <Image Include="images\chessboards\chessboard13.jpg" />
+    <Image Include="images\chessboards\chessboard14.jpg" />
+    <Image Include="images\chessboards\chessboard15.jpg" />
+    <Image Include="images\chessboards\chessboard16.jpg" />
+    <Image Include="images\chessboards\chessboard17.jpg" />
+    <Image Include="images\chessboards\chessboard18.jpg" />
+    <Image Include="images\chessboards\chessboard19.jpg" />
+    <Image Include="images\chessboards\chessboard20.jpg" />
+    <Image Include="images\chessboards\chessboard21.jpg" />
+    <Image Include="images\chessboards\chessboard22.jpg" />
+    <Image Include="images\chessboards\chessboard23.jpg" />
+    <Image Include="images\chessboards\chessboard24.jpg" />
+    <Image Include="images\chessboards\chessboard25.jpg" />
+    <Image Include="images\chessboards\chessboard26.jpg" />
+    <Image Include="images\chessboards\chessboard27.jpg" />
+    <Image Include="images\church01.jpg" />
+    <Image Include="images\church02.jpg" />
+    <Image Include="images\church03.jpg" />
+    <Image Include="images\cookbook1.bmp" />
+    <Image Include="images\dog.jpg" />
+    <Image Include="images\face0_1.png" />
+    <Image Include="images\face0_2.png" />
+    <Image Include="images\face1_1.png" />
+    <Image Include="images\face1_2.png" />
+    <Image Include="images\fundy.jpg" />
+    <Image Include="images\girl.jpg" />
+    <Image Include="images\goose\goose000.bmp" />
+    <Image Include="images\goose\goose001.bmp" />
+    <Image Include="images\goose\goose002.bmp" />
+    <Image Include="images\goose\goose003.bmp" />
+    <Image Include="images\goose\goose004.bmp" />
+    <Image Include="images\goose\goose005.bmp" />
+    <Image Include="images\goose\goose006.bmp" />
+    <Image Include="images\goose\goose007.bmp" />
+    <Image Include="images\goose\goose008.bmp" />
+    <Image Include="images\goose\goose009.bmp" />
+    <Image Include="images\goose\goose010.bmp" />
+    <Image Include="images\goose\goose011.bmp" />
+    <Image Include="images\goose\goose012.bmp" />
+    <Image Include="images\goose\goose013.bmp" />
+    <Image Include="images\goose\goose014.bmp" />
+    <Image Include="images\goose\goose015.bmp" />
+    <Image Include="images\goose\goose016.bmp" />
+    <Image Include="images\goose\goose017.bmp" />
+    <Image Include="images\goose\goose018.bmp" />
+    <Image Include="images\goose\goose019.bmp" />
+    <Image Include="images\goose\goose020.bmp" />
+    <Image Include="images\goose\goose021.bmp" />
+    <Image Include="images\goose\goose022.bmp" />
+    <Image Include="images\goose\goose023.bmp" />
+    <Image Include="images\goose\goose024.bmp" />
+    <Image Include="images\goose\goose025.bmp" />
+    <Image Include="images\goose\goose026.bmp" />
+    <Image Include="images\goose\goose027.bmp" />
+    <Image Include="images\goose\goose028.bmp" />
+    <Image Include="images\goose\goose029.bmp" />
+    <Image Include="images\goose\goose030.bmp" />
+    <Image Include="images\goose\goose031.bmp" />
+    <Image Include="images\goose\goose032.bmp" />
+    <Image Include="images\goose\goose033.bmp" />
+    <Image Include="images\goose\goose034.bmp" />
+    <Image Include="images\goose\goose035.bmp" />
+    <Image Include="images\goose\goose036.bmp" />
+    <Image Include="images\goose\goose037.bmp" />
+    <Image Include="images\goose\goose038.bmp" />
+    <Image Include="images\goose\goose039.bmp" />
+    <Image Include="images\goose\goose040.bmp" />
+    <Image Include="images\goose\goose041.bmp" />
+    <Image Include="images\goose\goose042.bmp" />
+    <Image Include="images\goose\goose043.bmp" />
+    <Image Include="images\goose\goose044.bmp" />
+    <Image Include="images\goose\goose045.bmp" />
+    <Image Include="images\goose\goose046.bmp" />
+    <Image Include="images\goose\goose047.bmp" />
+    <Image Include="images\goose\goose048.bmp" />
+    <Image Include="images\goose\goose049.bmp" />
+    <Image Include="images\goose\goose050.bmp" />
+    <Image Include="images\goose\goose051.bmp" />
+    <Image Include="images\goose\goose052.bmp" />
+    <Image Include="images\goose\goose053.bmp" />
+    <Image Include="images\goose\goose054.bmp" />
+    <Image Include="images\goose\goose055.bmp" />
+    <Image Include="images\goose\goose056.bmp" />
+    <Image Include="images\goose\goose057.bmp" />
+    <Image Include="images\goose\goose058.bmp" />
+    <Image Include="images\goose\goose059.bmp" />
+    <Image Include="images\goose\goose060.bmp" />
+    <Image Include="images\goose\goose061.bmp" />
+    <Image Include="images\goose\goose062.bmp" />
+    <Image Include="images\goose\goose063.bmp" />
+    <Image Include="images\goose\goose064.bmp" />
+    <Image Include="images\goose\goose065.bmp" />
+    <Image Include="images\goose\goose066.bmp" />
+    <Image Include="images\goose\goose067.bmp" />
+    <Image Include="images\goose\goose068.bmp" />
+    <Image Include="images\goose\goose069.bmp" />
+    <Image Include="images\goose\goose070.bmp" />
+    <Image Include="images\goose\goose071.bmp" />
+    <Image Include="images\goose\goose072.bmp" />
+    <Image Include="images\goose\goose073.bmp" />
+    <Image Include="images\goose\goose074.bmp" />
+    <Image Include="images\goose\goose075.bmp" />
+    <Image Include="images\goose\goose076.bmp" />
+    <Image Include="images\goose\goose077.bmp" />
+    <Image Include="images\goose\goose078.bmp" />
+    <Image Include="images\goose\goose079.bmp" />
+    <Image Include="images\goose\goose080.bmp" />
+    <Image Include="images\goose\goose081.bmp" />
+    <Image Include="images\goose\goose082.bmp" />
+    <Image Include="images\goose\goose083.bmp" />
+    <Image Include="images\goose\goose084.bmp" />
+    <Image Include="images\goose\goose085.bmp" />
+    <Image Include="images\goose\goose086.bmp" />
+    <Image Include="images\goose\goose087.bmp" />
+    <Image Include="images\goose\goose088.bmp" />
+    <Image Include="images\goose\goose089.bmp" />
+    <Image Include="images\goose\goose090.bmp" />
+    <Image Include="images\goose\goose091.bmp" />
+    <Image Include="images\goose\goose092.bmp" />
+    <Image Include="images\goose\goose093.bmp" />
+    <Image Include="images\goose\goose094.bmp" />
+    <Image Include="images\goose\goose095.bmp" />
+    <Image Include="images\goose\goose096.bmp" />
+    <Image Include="images\goose\goose097.bmp" />
+    <Image Include="images\goose\goose098.bmp" />
+    <Image Include="images\goose\goose099.bmp" />
+    <Image Include="images\goose\goose100.bmp" />
+    <Image Include="images\goose\goose101.bmp" />
+    <Image Include="images\goose\goose102.bmp" />
+    <Image Include="images\goose\goose103.bmp" />
+    <Image Include="images\goose\goose104.bmp" />
+    <Image Include="images\goose\goose105.bmp" />
+    <Image Include="images\goose\goose106.bmp" />
+    <Image Include="images\goose\goose107.bmp" />
+    <Image Include="images\goose\goose108.bmp" />
+    <Image Include="images\goose\goose109.bmp" />
+    <Image Include="images\goose\goose110.bmp" />
+    <Image Include="images\goose\goose111.bmp" />
+    <Image Include="images\goose\goose112.bmp" />
+    <Image Include="images\goose\goose113.bmp" />
+    <Image Include="images\goose\goose114.bmp" />
+    <Image Include="images\goose\goose115.bmp" />
+    <Image Include="images\goose\goose116.bmp" />
+    <Image Include="images\goose\goose117.bmp" />
+    <Image Include="images\goose\goose118.bmp" />
+    <Image Include="images\goose\goose119.bmp" />
+    <Image Include="images\goose\goose120.bmp" />
+    <Image Include="images\goose\goose121.bmp" />
+    <Image Include="images\goose\goose122.bmp" />
+    <Image Include="images\goose\goose123.bmp" />
+    <Image Include="images\goose\goose124.bmp" />
+    <Image Include="images\goose\goose125.bmp" />
+    <Image Include="images\goose\goose126.bmp" />
+    <Image Include="images\goose\goose127.bmp" />
+    <Image Include="images\goose\goose128.bmp" />
+    <Image Include="images\goose\goose129.bmp" />
+    <Image Include="images\goose\goose130.bmp" />
+    <Image Include="images\goose\goose131.bmp" />
+    <Image Include="images\goose\goose132.bmp" />
+    <Image Include="images\goose\goose133.bmp" />
+    <Image Include="images\goose\goose134.bmp" />
+    <Image Include="images\goose\goose135.bmp" />
+    <Image Include="images\goose\goose136.bmp" />
+    <Image Include="images\goose\goose137.bmp" />
+    <Image Include="images\goose\goose138.bmp" />
+    <Image Include="images\goose\goose139.bmp" />
+    <Image Include="images\goose\goose140.bmp" />
+    <Image Include="images\goose\goose141.bmp" />
+    <Image Include="images\goose\goose142.bmp" />
+    <Image Include="images\goose\goose143.bmp" />
+    <Image Include="images\goose\goose144.bmp" />
+    <Image Include="images\goose\goose145.bmp" />
+    <Image Include="images\goose\goose146.bmp" />
+    <Image Include="images\goose\goose147.bmp" />
+    <Image Include="images\goose\goose148.bmp" />
+    <Image Include="images\goose\goose149.bmp" />
+    <Image Include="images\goose\goose150.bmp" />
+    <Image Include="images\goose\goose151.bmp" />
+    <Image Include="images\goose\goose152.bmp" />
+    <Image Include="images\goose\goose153.bmp" />
+    <Image Include="images\goose\goose154.bmp" />
+    <Image Include="images\goose\goose155.bmp" />
+    <Image Include="images\goose\goose156.bmp" />
+    <Image Include="images\goose\goose157.bmp" />
+    <Image Include="images\goose\goose158.bmp" />
+    <Image Include="images\goose\goose159.bmp" />
+    <Image Include="images\goose\goose160.bmp" />
+    <Image Include="images\goose\goose161.bmp" />
+    <Image Include="images\goose\goose162.bmp" />
+    <Image Include="images\goose\goose163.bmp" />
+    <Image Include="images\goose\goose164.bmp" />
+    <Image Include="images\goose\goose165.bmp" />
+    <Image Include="images\goose\goose166.bmp" />
+    <Image Include="images\goose\goose167.bmp" />
+    <Image Include="images\goose\goose168.bmp" />
+    <Image Include="images\goose\goose169.bmp" />
+    <Image Include="images\goose\goose170.bmp" />
+    <Image Include="images\goose\goose171.bmp" />
+    <Image Include="images\goose\goose172.bmp" />
+    <Image Include="images\goose\goose173.bmp" />
+    <Image Include="images\goose\goose174.bmp" />
+    <Image Include="images\goose\goose175.bmp" />
+    <Image Include="images\goose\goose176.bmp" />
+    <Image Include="images\goose\goose177.bmp" />
+    <Image Include="images\goose\goose178.bmp" />
+    <Image Include="images\goose\goose179.bmp" />
+    <Image Include="images\goose\goose180.bmp" />
+    <Image Include="images\goose\goose181.bmp" />
+    <Image Include="images\goose\goose182.bmp" />
+    <Image Include="images\goose\goose183.bmp" />
+    <Image Include="images\goose\goose184.bmp" />
+    <Image Include="images\goose\goose185.bmp" />
+    <Image Include="images\goose\goose186.bmp" />
+    <Image Include="images\goose\goose187.bmp" />
+    <Image Include="images\goose\goose188.bmp" />
+    <Image Include="images\goose\goose189.bmp" />
+    <Image Include="images\goose\goose190.bmp" />
+    <Image Include="images\goose\goose191.bmp" />
+    <Image Include="images\goose\goose192.bmp" />
+    <Image Include="images\goose\goose193.bmp" />
+    <Image Include="images\goose\goose194.bmp" />
+    <Image Include="images\goose\goose195.bmp" />
+    <Image Include="images\goose\goose196.bmp" />
+    <Image Include="images\goose\goose197.bmp" />
+    <Image Include="images\goose\goose198.bmp" />
+    <Image Include="images\goose\goose199.bmp" />
+    <Image Include="images\goose\goose200.bmp" />
+    <Image Include="images\goose\goose201.bmp" />
+    <Image Include="images\goose\goose202.bmp" />
+    <Image Include="images\goose\goose203.bmp" />
+    <Image Include="images\goose\goose204.bmp" />
+    <Image Include="images\goose\goose205.bmp" />
+    <Image Include="images\goose\goose206.bmp" />
+    <Image Include="images\goose\goose207.bmp" />
+    <Image Include="images\goose\goose208.bmp" />
+    <Image Include="images\goose\goose209.bmp" />
+    <Image Include="images\goose\goose210.bmp" />
+    <Image Include="images\goose\goose211.bmp" />
+    <Image Include="images\goose\goose212.bmp" />
+    <Image Include="images\goose\goose213.bmp" />
+    <Image Include="images\goose\goose214.bmp" />
+    <Image Include="images\goose\goose215.bmp" />
+    <Image Include="images\goose\goose216.bmp" />
+    <Image Include="images\goose\goose217.bmp" />
+    <Image Include="images\goose\goose218.bmp" />
+    <Image Include="images\goose\goose219.bmp" />
+    <Image Include="images\goose\goose220.bmp" />
+    <Image Include="images\goose\goose221.bmp" />
+    <Image Include="images\goose\goose222.bmp" />
+    <Image Include="images\goose\goose223.bmp" />
+    <Image Include="images\goose\goose224.bmp" />
+    <Image Include="images\goose\goose225.bmp" />
+    <Image Include="images\goose\goose226.bmp" />
+    <Image Include="images\goose\goose227.bmp" />
+    <Image Include="images\goose\goose228.bmp" />
+    <Image Include="images\goose\goose229.bmp" />
+    <Image Include="images\goose\goose230.bmp" />
+    <Image Include="images\goose\goose231.bmp" />
+    <Image Include="images\goose\goose232.bmp" />
+    <Image Include="images\goose\goose233.bmp" />
+    <Image Include="images\goose\goose234.bmp" />
+    <Image Include="images\goose\goose235.bmp" />
+    <Image Include="images\goose\goose236.bmp" />
+    <Image Include="images\goose\goose237.bmp" />
+    <Image Include="images\goose\goose238.bmp" />
+    <Image Include="images\goose\goose239.bmp" />
+    <Image Include="images\goose\goose240.bmp" />
+    <Image Include="images\goose\goose241.bmp" />
+    <Image Include="images\goose\goose242.bmp" />
+    <Image Include="images\goose\goose243.bmp" />
+    <Image Include="images\goose\goose244.bmp" />
+    <Image Include="images\goose\goose245.bmp" />
+    <Image Include="images\goose\goose246.bmp" />
+    <Image Include="images\goose\goose247.bmp" />
+    <Image Include="images\goose\goose248.bmp" />
+    <Image Include="images\goose\goose249.bmp" />
+    <Image Include="images\goose\goose250.bmp" />
+    <Image Include="images\goose\goose251.bmp" />
+    <Image Include="images\goose\goose252.bmp" />
+    <Image Include="images\goose\goose253.bmp" />
+    <Image Include="images\goose\goose254.bmp" />
+    <Image Include="images\goose\goose255.bmp" />
+    <Image Include="images\goose\goose256.bmp" />
+    <Image Include="images\goose\goose257.bmp" />
+    <Image Include="images\goose\goose258.bmp" />
+    <Image Include="images\goose\goose259.bmp" />
+    <Image Include="images\goose\goose260.bmp" />
+    <Image Include="images\goose\goose261.bmp" />
+    <Image Include="images\goose\goose262.bmp" />
+    <Image Include="images\goose\goose263.bmp" />
+    <Image Include="images\goose\goose264.bmp" />
+    <Image Include="images\goose\goose265.bmp" />
+    <Image Include="images\goose\goose266.bmp" />
+    <Image Include="images\goose\goose267.bmp" />
+    <Image Include="images\goose\goose268.bmp" />
+    <Image Include="images\goose\goose269.bmp" />
+    <Image Include="images\goose\goose270.bmp" />
+    <Image Include="images\goose\goose271.bmp" />
+    <Image Include="images\goose\goose272.bmp" />
+    <Image Include="images\goose\goose273.bmp" />
+    <Image Include="images\goose\goose274.bmp" />
+    <Image Include="images\goose\goose275.bmp" />
+    <Image Include="images\goose\goose276.bmp" />
+    <Image Include="images\goose\goose277.bmp" />
+    <Image Include="images\goose\goose278.bmp" />
+    <Image Include="images\goose\goose279.bmp" />
+    <Image Include="images\goose\goose280.bmp" />
+    <Image Include="images\goose\goose281.bmp" />
+    <Image Include="images\goose\goose282.bmp" />
+    <Image Include="images\goose\goose283.bmp" />
+    <Image Include="images\goose\goose284.bmp" />
+    <Image Include="images\goose\goose285.bmp" />
+    <Image Include="images\goose\goose286.bmp" />
+    <Image Include="images\goose\goose287.bmp" />
+    <Image Include="images\goose\goose288.bmp" />
+    <Image Include="images\goose\goose289.bmp" />
+    <Image Include="images\goose\goose290.bmp" />
+    <Image Include="images\goose\goose291.bmp" />
+    <Image Include="images\goose\goose292.bmp" />
+    <Image Include="images\goose\goose293.bmp" />
+    <Image Include="images\goose\goose294.bmp" />
+    <Image Include="images\goose\goose295.bmp" />
+    <Image Include="images\goose\goose296.bmp" />
+    <Image Include="images\goose\goose297.bmp" />
+    <Image Include="images\goose\goose298.bmp" />
+    <Image Include="images\goose\goose299.bmp" />
+    <Image Include="images\goose\goose300.bmp" />
+    <Image Include="images\goose\goose301.bmp" />
+    <Image Include="images\goose\goose302.bmp" />
+    <Image Include="images\goose\goose303.bmp" />
+    <Image Include="images\goose\goose304.bmp" />
+    <Image Include="images\goose\goose305.bmp" />
+    <Image Include="images\goose\goose306.bmp" />
+    <Image Include="images\goose\goose307.bmp" />
+    <Image Include="images\goose\goose308.bmp" />
+    <Image Include="images\goose\goose309.bmp" />
+    <Image Include="images\goose\goose310.bmp" />
+    <Image Include="images\goose\goose311.bmp" />
+    <Image Include="images\goose\goose312.bmp" />
+    <Image Include="images\goose\goose313.bmp" />
+    <Image Include="images\goose\goose314.bmp" />
+    <Image Include="images\goose\goose315.bmp" />
+    <Image Include="images\goose\goose316.bmp" />
+    <Image Include="images\goose\goose317.bmp" />
+    <Image Include="images\group.jpg" />
+    <Image Include="images\lake.jpg" />
+    <Image Include="images\marais.jpg" />
+    <Image Include="images\moose.jpg" />
+    <Image Include="images\mser.bmp" />
+    <Image Include="images\objects.jpg" />
+    <Image Include="images\parliament1.jpg" />
+    <Image Include="images\parliament2.jpg" />
+    <Image Include="images\parliament3.jpg" />
+    <Image Include="images\person.jpg" />
+    <Image Include="images\polar.jpg" />
+    <Image Include="images\puppy.bmp" />
+    <Image Include="images\rain.jpg" />
+    <Image Include="images\road.jpg" />
+    <Image Include="images\salted.bmp" />
+    <Image Include="images\smalllogo.png" />
+    <Image Include="images\soup1.jpg" />
+    <Image Include="images\soup2.jpg" />
+    <Image Include="images\square.bmp" />
+    <Image Include="images\stopSamples\bg01.jpg" />
+    <Image Include="images\stopSamples\bg02.jpg" />
+    <Image Include="images\stopSamples\bg03.jpg" />
+    <Image Include="images\stopSamples\bg04.jpg" />
+    <Image Include="images\stopSamples\bg05.jpg" />
+    <Image Include="images\stopSamples\bg06.jpg" />
+    <Image Include="images\stopSamples\bg07.jpg" />
+    <Image Include="images\stopSamples\bg08.jpg" />
+    <Image Include="images\stopSamples\bg09.jpg" />
+    <Image Include="images\stopSamples\n1.jpg" />
+    <Image Include="images\stopSamples\n2.jpg" />
+    <Image Include="images\stopSamples\n3.jpg" />
+    <Image Include="images\stopSamples\n4.jpg" />
+    <Image Include="images\stopSamples\n5.jpg" />
+    <Image Include="images\stopSamples\n6.jpg" />
+    <Image Include="images\stopSamples\n7.jpg" />
+    <Image Include="images\stopSamples\n8.jpg" />
+    <Image Include="images\stopSamples\n9.jpg" />
+    <Image Include="images\stopSamples\neg00.png" />
+    <Image Include="images\stopSamples\neg01.png" />
+    <Image Include="images\stopSamples\neg02.png" />
+    <Image Include="images\stopSamples\neg03.png" />
+    <Image Include="images\stopSamples\neg04.png" />
+    <Image Include="images\stopSamples\neg05.png" />
+    <Image Include="images\stopSamples\neg06.png" />
+    <Image Include="images\stopSamples\neg07.png" />
+    <Image Include="images\stopSamples\neg08.png" />
+    <Image Include="images\stopSamples\neg09.png" />
+    <Image Include="images\stopSamples\objects.jpg" />
+    <Image Include="images\stopSamples\soup1.jpg" />
+    <Image Include="images\stopSamples\stop0.jpg" />
+    <Image Include="images\stopSamples\stop00.png" />
+    <Image Include="images\stopSamples\stop01.png" />
+    <Image Include="images\stopSamples\stop02.png" />
+    <Image Include="images\stopSamples\stop03.png" />
+    <Image Include="images\stopSamples\stop04.png" />
+    <Image Include="images\stopSamples\stop05.png" />
+    <Image Include="images\stopSamples\stop06.png" />
+    <Image Include="images\stopSamples\stop07.png" />
+    <Image Include="images\stopSamples\stop08.png" />
+    <Image Include="images\stopSamples\stop09.png" />
+    <Image Include="images\stopSamples\stop1.jpg" />
+    <Image Include="images\stopSamples\stop2.jpg" />
+    <Image Include="images\stopSamples\stop3.jpg" />
+    <Image Include="images\stopSamples\stop4.jpg" />
+    <Image Include="images\stopSamples\stop5.jpg" />
+    <Image Include="images\stopSamples\stop6.jpg" />
+    <Image Include="images\stopSamples\stop7.jpg" />
+    <Image Include="images\stopSamples\stop8.jpg" />
+    <Image Include="images\stopSamples\stop9.jpg" />
+    <Image Include="images\stopSamples\street00.jpg" />
+    <Image Include="images\stopSamples\street01.jpg" />
+    <Image Include="images\stopSamples\street02.jpg" />
+    <Image Include="images\stopSamples\street03.jpg" />
+    <Image Include="images\stopSamples\street04.jpg" />
+    <Image Include="images\stopSamples\street05.jpg" />
+    <Image Include="images\stopSamples\street06.jpg" />
+    <Image Include="images\stopSamples\street07.jpg" />
+    <Image Include="images\stopSamples\street08.jpg" />
+    <Image Include="images\stopSamples\street09.jpg" />
+    <Image Include="images\stopSamples\tower.jpg" />
+    <Image Include="images\tower.jpg" />
+    <Image Include="images\waves.jpg" />
+    <Image Include="Resources\dog.jpg" />
+    <Image Include="Resources\Lonely Tree.jpg" />
+    <Image Include="Resources\puppy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bike.avi" />
+    <None Include="images\stopSamples\trainStop.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="images\stopSamples\neg.txt" />
+    <Text Include="images\stopSamples\stop.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="images\stopSamples\classifier\cascade.xml" />
+    <Xml Include="images\stopSamples\classifier\params.xml" />
+    <Xml Include="images\stopSamples\classifier\stage0.xml" />
+    <Xml Include="images\stopSamples\classifier\stage1.xml" />
+    <Xml Include="images\stopSamples\classifier\stage2.xml" />
+    <Xml Include="images\stopSamples\classifier\stage3.xml" />
+    <Xml Include="images\stopSamples\classifier\stage4.xml" />
+    <Xml Include="images\stopSamples\classifier\stage5.xml" />
+    <Xml Include="images\stopSamples\classifier\stage6.xml" />
+    <Xml Include="images\stopSamples\classifier\stage7.xml" />
+    <Xml Include="images\stopSamples\classifier\stage8.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
