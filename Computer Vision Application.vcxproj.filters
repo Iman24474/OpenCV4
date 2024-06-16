@@ -15,11 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Loading&amp;SavingImages.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="images\baboon01.jpg">
       <Filter>Resource Files</Filter>
     </Image>
@@ -1414,5 +1409,10 @@
     <Xml Include="images\stopSamples\classifier\stage6.xml" />
     <Xml Include="images\stopSamples\classifier\stage7.xml" />
     <Xml Include="images\stopSamples\classifier\stage8.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CH1-Playing with Images\Exploring_Mat_DataStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

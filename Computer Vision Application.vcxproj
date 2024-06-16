@@ -132,9 +132,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Loading&amp;SavingImages.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="images\baboon01.jpg" />
     <Image Include="images\baboon02.jpg" />
     <Image Include="images\beach.jpg" />
@@ -613,6 +610,9 @@
     <Xml Include="images\stopSamples\classifier\stage6.xml" />
     <Xml Include="images\stopSamples\classifier\stage7.xml" />
     <Xml Include="images\stopSamples\classifier\stage8.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CH1-Playing with Images\Exploring_Mat_DataStructure.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

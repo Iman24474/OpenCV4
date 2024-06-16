@@ -13,11 +13,11 @@ int main()
 	// #1 Create an empty image object
 	Mat image;
 	// #2 Read an image from the file
-	//image = imread("images/puppy.bmp");
+	image = imread("images/puppy.bmp");
 	// #2.1 Read the input image as a gray-scale image
 	image = imread("images/puppy.bmp", IMREAD_GRAYSCALE);
 	// #2.2 Read the input image as a 3-channel color image
-	//image = imread("images/puppy.bmp", IMREAD_COLOR);
+	image = imread("images/puppy.bmp", IMREAD_COLOR);
 
 	// #3 Error handling 
 	if (image.empty())
