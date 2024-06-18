@@ -1411,7 +1411,7 @@
     <Xml Include="images\stopSamples\classifier\stage8.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CH1-Playing with Images\Exploring_Mat_DataStructure.cpp">
+    <ClCompile Include="CH2-Manipulating the Pixels\Accessing_Pixel_Values.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
