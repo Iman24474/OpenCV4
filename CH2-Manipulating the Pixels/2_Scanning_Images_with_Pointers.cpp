@@ -8,6 +8,8 @@ void colorReduce(cv::Mat image, int div = 64);
 void colorReduceMod(cv::Mat image, int div = 64);
 void colorReduceBitWise(cv::Mat image, int div = 64);
 
+void colorReduce(const cv::Mat& inputImage, cv::Mat& outputImage, int div = 64);
+
 int main()
 {
 	//	Reducing the number of colors in an image
@@ -20,6 +22,8 @@ int main()
 	
 	//////////////////// 1 ////////////////////
 
+	//	In-place transformation
+
 	//	Read the image
 	cv::Mat image = cv::imread("images/boldt.jpg");
 
@@ -31,6 +35,42 @@ int main()
 	cv::imshow("Now", image);
 	cv::waitKey(0);
 
+	//////////////////// 2 ////////////////////
+
+	// Having input and output arguments
+	
+	// Read the image
+	cv::Mat image1 = cv::imread("images/boldt.jpg");
+	
+	// Easiest way to create an identical deep copy of an image is to call the 'clone()' method.
+	cv::Mat imageClone = image1.clone();
+
+	// Process the clone (Original image remains untouched)
+	colorReduce(imageClone);
+
+	cv::imshow("Original Image", image1);
+	cv::imshow("Cloned Image", imageClone);
+	cv::waitKey(0);
+
+	//////////////////// 3 ////////////////////
+	
+	// Option to either use or not use in-place processing
+	
+	cv::Mat result;
+	colorReduce(image1, result);
+
+	cv::imshow("Image1", image1);
+	cv::imshow("Result", result);
+
+	
+	// When in-place processing is preferred, the same image is specified as the input and output
+	colorReduce(image1, image1);
+
+	cv::imshow("In-place", image1);
+	cv::waitKey(0);
+
+
+	
 
 }
 
@@ -60,6 +100,34 @@ void colorReduce(cv::Mat image, int div)
 			//	data++;
 	}
 
+}
+
+//	The inputImage is passed as a const reference, which means that this image will not be modified by the function.
+//	The outputImage is passed as a reference so that the calling function will see the output argument modified by this call.
+void colorReduce(const cv::Mat &inputImage, cv::Mat &outputImage, int div)
+{
+	int nl = inputImage.rows; // number of lines
+	int nc = inputImage.cols * inputImage.channels(); // Number of pixel values per row 
+
+	// allocate output image if necessary
+	//		The key here is first to verify whether the output image has an allocated data buffer with 
+	//		a size and pixel type that matches one of the input images.
+	//		This check is encapsulated inside the 'create()' method.
+	//		If, by chance, the matrix already has the size and type specified, then no operation is performed and
+	//			the method simply returns without touching the instance.
+	outputImage.create(inputImage.rows, inputImage.cols, inputImage.type());
+
+	for (int j = 0; j < nl; j++)
+	{
+		// get the addresses of input and output row j
+		const uchar* data_in = inputImage.ptr<uchar>(j);
+		uchar* data_out = outputImage.ptr<uchar>(j);
+
+		for (int i = 0; i < nc; i++)
+		{
+			data_out[i] = data_in[i] / div * div + div / 2;
+		}
+	}
 }
 
 // Other color reduction formulas
@@ -108,3 +176,4 @@ void colorReduceBitWise(cv::Mat image, int div )
 		}
 	}
 }
+
